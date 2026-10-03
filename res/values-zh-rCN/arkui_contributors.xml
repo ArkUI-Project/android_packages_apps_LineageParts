@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The ArkUI Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="contributors_overview_summary">ArkUI 与 LineageOS 的贡献者</string>
+    <string name="arkui_contributors_title">ArkUI 贡献者</string>
+    <string name="arkui_contributors_summary">ArkUI 的开发者与维护者</string>
+    <string name="arkui_contributors_intro">感谢每一位为 ArkUI 作出贡献的人。</string>
+    <string name="arkui_contributors_team_title">开发与维护</string>
+    <string name="arkui_contributor_youshen2_role">项目维护、系统开发与界面设计</string>
+    <string name="lineage_contributors_title">LineageOS 贡献者</string>
+    <string name="lineage_contributors_summary">LineageOS 的开发者与贡献者</string>
+</resources>

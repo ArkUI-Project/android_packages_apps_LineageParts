@@ -2,6 +2,7 @@
 <!--
      SPDX-FileCopyrightText: 2016 The CyanogenMod Project
      SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-FileCopyrightText: 2026 The ArkUI Project
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -33,8 +34,18 @@
           android:fragment="org.lineageos.lineageparts.input.ButtonSettings"
           lineage:xmlRes="@xml/button_settings" />
 
-    <part android:key="contributors"
+    <part android:key="contributors_overview"
           android:title="@string/contributors_cloud_fragment_title"
+          android:fragment="org.lineageos.lineageparts.contributors.ContributorsOverviewFragment"
+          lineage:xmlRes="@xml/contributors_overview" />
+
+    <part android:key="arkui_contributors"
+          android:title="@string/arkui_contributors_title"
+          android:fragment="org.lineageos.lineageparts.contributors.ArkuiContributorsFragment"
+          lineage:xmlRes="@xml/arkui_contributors" />
+
+    <part android:key="contributors"
+          android:title="@string/lineage_contributors_title"
           android:fragment="org.lineageos.lineageparts.contributors.ContributorsCloudFragment"
           lineage:xmlRes="@xml/contributors_cloud" />
 

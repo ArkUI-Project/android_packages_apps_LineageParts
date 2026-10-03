@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The ArkUI Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="arkui_contributors"
+    android:title="@string/arkui_contributors_title">
+
+    <Preference
+        android:key="arkui_contributors_intro"
+        android:summary="@string/arkui_contributors_intro"
+        android:selectable="false" />
+
+    <PreferenceCategory
+        android:key="arkui_contributors_team"
+        android:title="@string/arkui_contributors_team_title">
+
+        <!-- ArkUI contributors identified from this project's own Git commits. -->
+        <Preference
+            android:key="arkui_contributor_youshen2"
+            android:title="@string/arkui_contributor_youshen2_name"
+            android:summary="@string/arkui_contributor_youshen2_role"
+            android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

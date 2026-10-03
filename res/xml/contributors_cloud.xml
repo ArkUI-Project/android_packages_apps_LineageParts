@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-FileCopyrightText: 2026 The ArkUI Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="contributors_cloud"
-    android:title="@string/contributors_cloud_fragment_title" />
+    android:title="@string/lineage_contributors_title" />

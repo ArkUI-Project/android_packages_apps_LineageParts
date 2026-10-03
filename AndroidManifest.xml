@@ -2,6 +2,7 @@
 <!--
      SPDX-FileCopyrightText: 2016 The CyanogenMod Project
      SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-FileCopyrightText: 2026 The ArkUI Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -296,15 +297,15 @@
                 android:resource="@string/trust_summary" />
         </activity-alias>
 
-        <!-- Contributors Cloud (MyDeviceInfo category) -->
+        <!-- Contributors overview (MyDeviceInfo category) -->
         <activity-alias
-            android:name=".contributors.ContributorsCloudFragment"
+            android:name=".contributors.ContributorsOverviewFragment"
             android:exported="true"
             android:label="@string/contributors_cloud_fragment_title"
             android:targetActivity="PartsActivity">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
-                <action android:name="org.lineageos.lineageparts.CONTRIBUTORS_CLOUD" />
+                <action android:name="org.lineageos.lineageparts.CONTRIBUTORS_OVERVIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
@@ -316,13 +317,36 @@
                 android:value="legal_category" />
             <meta-data
                 android:name="com.android.settings.order"
-                android:value="18" />
+                android:value="19" />
             <meta-data
                 android:name="com.android.settings.profile"
                 android:value="primary_profile_only" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/summary_empty" />
+                android:resource="@string/contributors_overview_summary" />
+        </activity-alias>
+
+        <!-- Contributor pages are reached from the overview or their direct intents. -->
+        <activity-alias
+            android:name=".contributors.ArkuiContributorsFragment"
+            android:exported="true"
+            android:label="@string/arkui_contributors_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="org.lineageos.lineageparts.ARKUI_CONTRIBUTORS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".contributors.ContributorsCloudFragment"
+            android:exported="true"
+            android:label="@string/lineage_contributors_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="org.lineageos.lineageparts.CONTRIBUTORS_CLOUD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity-alias>
 
         <activity
