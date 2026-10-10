@@ -9,8 +9,8 @@
     <string name="arkui_contributors_summary">ArkUI developers and maintainers</string>
     <string name="arkui_contributors_intro">Thank you to everyone who contributes to ArkUI.</string>
     <string name="arkui_contributors_team_title">Development and maintenance</string>
-    <string name="arkui_contributor_youshen2_name" translatable="false">youshen2</string>
-    <string name="arkui_contributor_youshen2_role">Project maintenance, system development and interface design</string>
+    <string name="arkui_contributor_youshen2_name" translatable="false">爅峫</string>
+    <string name="arkui_contributor_youshen2_role">youshen2 · Project maintenance, system development and interface design</string>
     <string name="lineage_contributors_title">LineageOS contributors</string>
     <string name="lineage_contributors_summary">LineageOS developers and contributors</string>
 </resources>

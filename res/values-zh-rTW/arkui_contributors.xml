@@ -9,7 +9,7 @@
     <string name="arkui_contributors_summary">ArkUI 的開發者與維護者</string>
     <string name="arkui_contributors_intro">感謝每一位為 ArkUI 作出貢獻的人。</string>
     <string name="arkui_contributors_team_title">開發與維護</string>
-    <string name="arkui_contributor_youshen2_role">專案維護、系統開發與介面設計</string>
+    <string name="arkui_contributor_youshen2_role">youshen2 · 專案維護、系統開發與介面設計</string>
     <string name="lineage_contributors_title">LineageOS 貢獻者</string>
     <string name="lineage_contributors_summary">LineageOS 的開發者與貢獻者</string>
 </resources>
